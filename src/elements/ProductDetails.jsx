@@ -76,10 +76,10 @@ const ProductDetailBox = (props) => {
           </button>
         </div>
         <button
-          className="w-[245px] border-[1px] border-[#FF0000] h-[41px] text-2xl font-semibold text-[#FF0404] py-2"
+          className="w-[245px] border-[1px] border-[#FF0000] h-[41px] text-2xl font-semibold text-[#FF0404] py-2 btn btn1"
           onClick={success}
         >
-          สั่งซื้อทันที
+          <a>สั่งซื้อทันที</a>
         </button>
       </div>
     </div>
