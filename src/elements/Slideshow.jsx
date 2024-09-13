@@ -11,6 +11,9 @@ const Slideshow = () => {
     {
       url: "https://dlcdnwebimgs.asus.com/gain/214294D9-ABA3-413B-99AB-BE029EF7C199/fwebp",
     },
+    {
+      url: "https://resource.logitechg.com/w_1800,h_1800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/homepage/static-hpb/g309-lightspeed-wireless-mouse-hpb-desktop.jpg?v=1",
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
