@@ -71,7 +71,7 @@ const Navbar = () => {
               <li className="">
                 <NavLink
                   to="/contact"
-                  className="lg:text-white text-black hover:text-blue-600 lg:block"
+                  className="lg:text-white text-black hover:text-blue-600 lg:block transition-all duration-500 "
                 >
                   Contact
                   <hr className="lg:hidden"/>
@@ -80,7 +80,7 @@ const Navbar = () => {
               <li className="">
                 <NavLink
                   to="/about"
-                  className="lg:text-white text-black hover:text-blue-600 lg:block"
+                  className="lg:text-white text-black hover:text-blue-600 lg:block transition-all duration-500"
                 >
                   About
                   <hr className="lg:hidden"/>
