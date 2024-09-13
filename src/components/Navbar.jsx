@@ -53,7 +53,7 @@ const Navbar = () => {
               <li className="">
                 <NavLink
                   to="/"
-                  className="lg:text-white text-black hover:text-blue-600 lg:block transition-all duration-500 "
+                  className="lg:text-white text-black hover:text-blue-600 lg:block transition-all duration-500"
                 >
                   Home
                   <hr className="lg:hidden"/>
