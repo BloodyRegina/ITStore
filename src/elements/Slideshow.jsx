@@ -60,7 +60,7 @@ const Slideshow = () => {
     <div className="h-[88vh] w-full relative group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className="w-full h-full bg-center bg-cover duration-500 shadow-inner"
+        className="h-full bg-center bg-cover duration-500 shadow-inner w-full"
       ></div>
       {/* Left Arrow */}
       <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
