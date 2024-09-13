@@ -8,7 +8,7 @@ const NotFound = () => {
         <h1 className="font-bold text-4xl text-black">
           Sorry, Not Found :(
         </h1>
-        <Link to="/" className="text-3xl text-white p-5 bg-black rounded-lg">Back to Home</Link>
+        <Link to="/" className="text-3xl text-white p-5 bg-black rounded-lg before:hidden">Back to Home</Link>
       </div>
     </Layout>
   );

@@ -8,8 +8,8 @@ const Card = (props) => (
       className="h-[210px]"
     />
     <h1 className="text-[28px] text-center font-semibold">{props.name}</h1>
-    <button className="w-[245px] h-[41px] bg-white text-[#FF0000]  border-[#FF0000] border-[1px] text-2xl font-semibold">
-      <Link to={`/product/${props.productid}`}>Learn More</Link>
+    <button className="w-[245px] h-[41px] bg-white text-[#FF0000]  border-[#FF0000] border-[1px] text-2xl font-semibold btn btn1">
+      <Link to={`/product/${props.productid}`} className="">Learn More</Link>
     </button>
     <div></div>
   </div>

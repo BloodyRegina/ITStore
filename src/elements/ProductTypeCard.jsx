@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const ProductTypeCard = (props) => {
   return (
     <div className="flex flex-col w-[250px] justify-center items-center rounded-lg p-4 bg-white">
-      <Link to="">
+      <Link to="" className="before:hidden">
         <img
           src={`/images/${props.image}`}
           alt={props.name}

@@ -44,10 +44,6 @@ const Home = () => {
       image: "product9.png",
       name: "Headset",
     },
-    {
-      image: "Notebook.webp",
-      name: "Notebook",
-    },
   ];
   return (
     <Layout>
