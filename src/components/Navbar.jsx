@@ -13,7 +13,7 @@ const Navbar = () => {
 
     // Toggle the class for the navlinks
     if (navlinksRef.current) {
-      navlinksRef.current.classList.toggle("top-[8%]");
+      navlinksRef.current.classList.toggle("top-[9.5%]");
       navlinksRef.current.classList.toggle("-top-full");
     }
   };
