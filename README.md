@@ -12,6 +12,5 @@ O(IT Shop) --> A(Home)
 O --> B(Product)
 O --> C(Contact)
 O --> D(About)
-O --> E(Login)
 B --> B2(Productdetails)
 ```
