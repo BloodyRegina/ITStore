@@ -8,8 +8,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 ```mermaid
 graph LR
-A(Home) --> B(Product)
-A --> C(Contact)
-A --> D(About)
+O(IT Shop) --> A(Home)
+O --> B(Product)
+O --> C(Contact)
+O --> D(About)
 B --> B2(Productdetails)
 ```
