@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const Contact = () => {
   return (
     <Layout>
-      <div data-aos="fade-up" data-aos-duration="1500"  >
+      <div data-aos="fade-up" data-aos-duration="1500" className="h-screen">
       <h1 className="font-bold lg:text-[64px] text-black mt-5 mx-10 text-[56px]">Contact</h1>
       <hr />
       <div className="mx-10">

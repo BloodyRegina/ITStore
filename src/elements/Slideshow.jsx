@@ -74,7 +74,7 @@ const Slideshow = () => {
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
       <div className="flex justify-center py-2 absolute top-[95%] md:left-[46%] left-[38%]">
-        {slides.map((slideIndex) => (
+        {slides.map((slide ,slideIndex) => (
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
